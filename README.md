@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
 
-## Getting Started
+Modernes Portfolio von Eva-Maria Kuhn mit Fokus auf Webentwicklung, Cloud-Grundlagen und DevOps.
 
-First, run the development server:
+---
+
+# Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Docker
+- GitHub
+- Vercel
+
+---
+
+# Features
+
+- Modernes responsives Design
+- Dark UI
+- Komponentenbasierte Architektur
+- Mobile Navigation
+- Reusable UI Components
+- Docker Development Setup
+- Smooth Scrolling
+- Dezente Animationen mit Framer Motion
+
+---
+
+# Lokale Entwicklung
+
+Repository klonen:
 
 ```bash
+git clone <repository-url>
+
+Projektordner öffnen:
+
+cd portfolio
+
+Dependencies installieren:
+
+npm install
+
+Development Server starten:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Die Anwendung läuft unter:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+Docker Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Container starten:
 
-## Learn More
+docker compose up --build
 
-To learn more about Next.js, take a look at the following resources:
+Falls Port 3001 verwendet wird:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+http://localhost:3001
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Container stoppen:
 
-## Deploy on Vercel
+docker compose down
+Projektstruktur
+app/
+components/
+  layout/
+  sections/
+  ui/
+data/
+lib/
+styles/
+types/
+public/
+Ziel des Projekts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Diese Website dient als:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+persönliches Portfolio
+technische Referenz
+Lernprojekt für moderne Webtechnologien
+Grundlage für spätere Selbstständigkeit
+praktische Anwendung von Cloud- und DevOps-Konzepten
+Fokusbereiche
+Moderne Frontend-Architektur
+TypeScript
+Responsive Webdesign
+Performance
+Deployment
+Docker
+CI/CD
+DevOps-Grundlagen
+Geplante Erweiterungen
+Projekt-Detailseiten
+GitHub Actions
+Automatische Deployments
+SEO-Optimierung
+Analytics
+Kontaktformular
+CMS-Integration
+Performance Audits
+Testing
+Deployment
+
+Geplant über:
+
+Vercel
+GitHub
+Docker-basierte Entwicklungsumgebung
+Author
+
+Eva-Maria Kuhn
