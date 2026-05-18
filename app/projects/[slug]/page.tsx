@@ -21,7 +21,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   return (
     <main className="min-h-screen bg-black py-24 text-white">
       <Container>
-        <Link href="/#projects" className="mb-10 inline-block text-sm text-zinc-400 hover:text-white">
+        <Link
+          href="/#projects"
+          className="mb-10 inline-block text-sm text-zinc-400 hover:text-white"
+        >
           ← Zurück zu Projekten
         </Link>
 
@@ -35,20 +38,31 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           {project.title}
         </h1>
 
-        <p className="mb-10 max-w-3xl text-xl leading-9 text-zinc-300">
+        <p className="mb-12 max-w-3xl text-xl leading-9 text-zinc-300">
           {project.description}
         </p>
 
-        <article className="max-w-3xl rounded-3xl border border-zinc-800 bg-zinc-950 p-8 leading-8 text-zinc-300">
-          {project.details}
-        </article>
+        <div className="grid gap-6 md:grid-cols-2">
+          <article className="rounded-3xl border border-zinc-800 bg-zinc-950 p-8 md:col-span-2">
+            <p className="leading-8 text-zinc-300">{project.details}</p>
+          </article>
+
+          <article className="rounded-3xl border border-zinc-800 bg-zinc-950 p-8">
+            <h2 className="mb-4 text-2xl font-semibold">Herausforderung</h2>
+            <p className="leading-8 text-zinc-400">{project.challenge}</p>
+          </article>
+
+          <article className="rounded-3xl border border-zinc-800 bg-zinc-950 p-8">
+            <h2 className="mb-4 text-2xl font-semibold">Lösung</h2>
+            <p className="leading-8 text-zinc-400">{project.solution}</p>
+          </article>
+
+          <article className="rounded-3xl border border-zinc-800 bg-zinc-950 p-8 md:col-span-2">
+            <h2 className="mb-4 text-2xl font-semibold">Ergebnis</h2>
+            <p className="leading-8 text-zinc-400">{project.result}</p>
+          </article>
+        </div>
       </Container>
     </main>
   );
-}
-
-export function generateStaticParams() {
-  return projects.map((project) => ({
-    slug: project.slug,
-  }));
 }
