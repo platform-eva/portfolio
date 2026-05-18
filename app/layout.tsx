@@ -1,23 +1,24 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+import { siteConfig } from "@/lib/constants";
+
 export const metadata: Metadata = {
-  title: "Eva-Maria Kuhn | Webentwicklung, Cloud & DevOps",
-  description:
-    "Portfolio von Eva-Maria Kuhn mit Fokus auf moderne Webentwicklung, Cloud-Grundlagen, DevOps, Performance und professionelle Deployments.",
+  title: `${siteConfig.name} | ${siteConfig.title}`,
+  description: siteConfig.description,
+
   openGraph: {
-    title: "Eva-Maria Kuhn | Webentwicklung, Cloud & DevOps",
-    description:
-      "Modernes Portfolio mit Next.js, TypeScript, Tailwind CSS, Docker und Vercel.",
+    title: `${siteConfig.name} | ${siteConfig.title}`,
+    description: siteConfig.description,
     url: "https://portfolio-kohl-sigma-ur02alugul.vercel.app/",
     siteName: "Eva-Maria Kuhn Portfolio",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Eva-Maria Kuhn | Webentwicklung, Cloud & DevOps",
-    description:
-      "Modernes Portfolio mit Fokus auf Webentwicklung, Cloud-Grundlagen und DevOps.",
+    title: `${siteConfig.name} | ${siteConfig.title}`,
+    description: siteConfig.description,
   },
 };
 

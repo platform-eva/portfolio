@@ -27,7 +27,7 @@ export function HeroSection() {
           und professionellem Deployment.
         </p>
 
-        <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+        <div className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 pt-24">
           <Button href="#projects">Projekte ansehen</Button>
           <Button href="#contact" variant="secondary">
             Kontakt
