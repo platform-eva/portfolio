@@ -15,20 +15,22 @@ export function HeroSection() {
         className="relative z-10 mx-auto max-w-5xl text-center"
       >
         <p className="mb-4 text-xs uppercase tracking-[0.3em] text-zinc-500 md:text-sm">
-          Fullstack • Cloud • DevOps
+          Fullstack • Cloud-native • Platform Engineering
         </p>
 
         <h1 className="mb-6 bg-gradient-to-r from-white to-zinc-500 bg-clip-text text-5xl font-bold leading-tight text-transparent sm:text-6xl md:text-7xl lg:text-8xl">
           Eva-Maria Kuhn
         </h1>
 
-        <p className="mx-auto mb-10 max-w-2xl text-base leading-8 text-zinc-300 md:text-lg">
-          Moderne Weblösungen mit Fokus auf Performance, sauberer Architektur
-          und professionellem Deployment.
+        <p className="mx-auto mb-10 max-w-3xl text-base leading-8 text-zinc-300 md:text-xl">
+          Moderne Web- und Plattformlösungen mit Fokus auf
+          Cloud-native Technologien, Kubernetes, DevOps und
+          professionelle Deployments.
         </p>
 
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Button href="#projects">Projekte ansehen</Button>
+
           <Button href="#contact" variant="secondary">
             Kontakt
           </Button>

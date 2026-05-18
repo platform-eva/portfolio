@@ -2,48 +2,58 @@ import { Project } from "@/types/project";
 
 export const projects: Project[] = [
   {
-    title: "Portfolio Website",
-    slug: "portfolio-website",
+    title: "Cost Detective",
+    slug: "cost-detective",
     description:
-      "Modernes Portfolio mit Next.js, Tailwind CSS, Framer Motion und Docker.",
-    technologies: ["Next.js", "TypeScript", "Tailwind", "Docker", "Vercel"],
+      "Cloud-native Kubernetes Efficiency Dashboard zur Analyse von Resource Waste, Autoscaling-Verhalten und Infrastruktur-Effizienz.",
+
+    technologies: [
+      "Next.js",
+      "FastAPI",
+      "Docker",
+      "Kubernetes",
+      "Helm",
+      "PostgreSQL",
+      "GitHub Actions",
+    ],
+
     details:
-      "Dieses Projekt zeigt eine moderne Portfolio-Website mit komponentenbasierter Architektur, responsivem Design, Docker-Setup, GitHub Actions und Deployment über Vercel.",
+      "Cost Detective ist ein Kubernetes Efficiency Dashboard für Platform- und DevOps-Teams. Die Anwendung visualisiert Ressourcennutzung, Autoscaling-Verhalten und potenzielle Infrastrukturverschwendung innerhalb von Kubernetes-Clustern.",
+
     challenge:
-      "Die Herausforderung war, moderne Web- und DevOps-Techniken sinnvoll einzubauen, ohne das Projekt unnötig komplex zu machen.",
+      "Kubernetes-Metriken und Infrastrukturkosten sind oft schwer sichtbar und über verschiedene Systeme verteilt.",
+
     solution:
-      "Die Website nutzt Next.js, TypeScript, Tailwind CSS, Docker für lokale Entwicklung, GitHub Actions für CI und Vercel für automatisches Deployment.",
+      "Die Plattform kombiniert ein modernes Dashboard mit FastAPI, PostgreSQL, Docker, Kubernetes und CI/CD-Workflows zur Analyse von Workload- und Ressourcenverhalten.",
+
     result:
-      "Entstanden ist ein performantes Portfolio, das als technische Referenz und Grundlage für spätere Kundenprojekte dient.",
+      "Entstanden ist ein modernes Cloud-native Projekt mit Fokus auf Observability, Platform Engineering und Infrastruktur-Effizienz.",
   },
+
   {
-    title: "PAH GmbH Website",
-    slug: "pah-gmbh-website",
+    title: "Portfolio Platform",
+    slug: "portfolio-platform",
     description:
-      "Professionelle Firmenwebsite mit modernem Design und Fokus auf Performance.",
-    technologies: ["React", "SEO", "Responsive Design"],
+      "Modernes Portfolio mit Next.js, Docker, CI/CD und professionellem Deployment.",
+
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Docker",
+      "GitHub Actions",
+      "Vercel",
+    ],
+
     details:
-      "Geplantes Kundenprojekt für eine schnelle, wartungsarme Firmenwebsite mit klarer Struktur und professioneller Außendarstellung.",
+      "Persönliche Plattform zur Präsentation moderner Web-, Cloud- und Plattformprojekte.",
+
     challenge:
-      "Eine kleine Firmenwebsite soll professionell wirken, schnell laden und einfach wartbar bleiben.",
+      "Das Ziel war eine moderne, performante und technisch saubere Plattform mit professioneller Infrastruktur.",
+
     solution:
-      "Geplant ist eine moderne statische Website mit klarer Informationsarchitektur, responsivem Design und sauberem Deployment.",
+      "Die Anwendung nutzt moderne Frontend-Technologien, Docker-basierte Entwicklung und automatisierte CI/CD-Workflows.",
+
     result:
-      "Ziel ist eine hochwertige Online-Präsenz mit geringen laufenden Kosten und einfacher technischer Pflege.",
-  },
-  {
-    title: "Filmprojekt Website",
-    slug: "filmprojekt-website",
-    description:
-      "Landingpage für Dokumentations- und Filmprojekte mit visueller Präsentation.",
-    technologies: ["Next.js", "UI/UX", "Deployment"],
-    details:
-      "Geplantes Projekt für eine visuelle Landingpage mit Fokus auf Storytelling, Medienpräsentation und einfache Pflege.",
-    challenge:
-      "Filmische Inhalte brauchen eine emotionale Präsentation, ohne dass die Seite langsam oder überladen wirkt.",
-    solution:
-      "Geplant ist eine reduzierte Landingpage mit starkem visuellen Fokus, guter Performance und einfacher Erweiterbarkeit.",
-    result:
-      "Die Website soll Projekte professionell präsentieren und als digitale Visitenkarte für Film- und Dokumentationsarbeiten dienen.",
+      "Die Plattform dient als technische Referenz für moderne Cloud-native und Web-Projekte.",
   },
 ];

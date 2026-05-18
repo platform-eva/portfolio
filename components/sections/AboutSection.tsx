@@ -11,20 +11,28 @@ export function AboutSection() {
             </p>
 
             <h2 className="text-4xl font-bold md:text-6xl">
-              Webentwicklung mit technischem Fundament.
+              Moderne Plattform- und Webentwicklung.
             </h2>
           </div>
 
           <div className="space-y-6 text-lg leading-8 text-zinc-300">
             <p>
-              Ich baue moderne Weblösungen mit Fokus auf saubere Struktur,
-              Performance und professionelles Deployment.
+              Ich entwickle moderne Webanwendungen und
+              Cloud-native Plattformlösungen mit Fokus auf
+              Performance, Wartbarkeit und professionelle
+              Infrastruktur.
             </p>
 
             <p>
-              In meiner Weiterbildung vertiefe ich Themen wie Docker, Cloud,
-              CI/CD, Monitoring und DevOps. Diese Kenntnisse fließen gezielt in
-              mein Portfolio ein — sinnvoll, praxisnah und ohne Overengineering.
+              Mein Schwerpunkt liegt auf modernen Frontends,
+              containerisierten Deployments, Kubernetes,
+              CI/CD-Workflows und technischen Dashboards.
+            </p>
+
+            <p>
+              Dabei kombiniere ich langjährige IT-Erfahrung
+              mit modernen Technologien wie Next.js,
+              TypeScript, Docker, FastAPI und Kubernetes.
             </p>
           </div>
         </div>

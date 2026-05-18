@@ -1,17 +1,19 @@
 export const services = [
   {
-    title: "Moderne Firmenwebsites",
+    title: "Moderne Webanwendungen",
     description:
-      "Schnelle, responsive Websites mit klarer Struktur, hochwertigem Design und guter Nutzerführung.",
+      "Performante und responsive Anwendungen mit Next.js, TypeScript und moderner Frontend-Architektur.",
   },
+
   {
-    title: "Wartungsarme Deployments",
+    title: "Cloud-native & DevOps",
     description:
-      "Saubere Veröffentlichungsprozesse mit GitHub, Vercel und später CI/CD-Pipelines.",
+      "Docker, CI/CD, GitHub Actions und containerisierte Deployments für moderne Entwicklungsprozesse.",
   },
+
   {
-    title: "Technisches Fundament",
+    title: "Platform Engineering",
     description:
-      "Fokus auf Performance, SEO, saubere Architektur und moderne Webstandards.",
+      "Kubernetes-basierte Lösungen, technische Dashboards und Infrastruktur-Visualisierung mit Fokus auf Effizienz und Wartbarkeit.",
   },
 ];

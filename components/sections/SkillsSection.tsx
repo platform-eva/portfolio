@@ -7,11 +7,11 @@ export function SkillsSection() {
     <section id="skills" className="border-t border-zinc-800 py-32">
       <Container>
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-zinc-500">
-          Skills
+          Technologies
         </p>
 
         <h2 className="mb-10 text-4xl font-bold md:text-6xl">
-          Technologien, die ich aktuell vertiefe.
+          Technologien & Plattformen
         </h2>
 
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
